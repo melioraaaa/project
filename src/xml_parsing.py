@@ -32,7 +32,7 @@ for image in root.findall('image'):
             xmax = int(bbox.find('xmax').text)
             ymin = int(bbox.find('ymin').text)
             ymax = int(bbox.find('ymax').text)
-            print("Обработка объекта...")
+            print("обработка")
         except Exception as e:
             print(f"ошибка: {e}")
 
